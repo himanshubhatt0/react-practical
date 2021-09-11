@@ -11,3 +11,175 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.containerApp{
+ background-color: black;
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+justify-content: center;
+align-items: center;
+ 
+}
+.subContainerApp{
+  background-color: white;
+  width: 80vw;
+  height: 90vh;
+ 
+ }
+ .headers{
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+  color: white;
+  
+ }
+ .mainD{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .heading{
+  display: flex;
+  height: 70px;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 20px;
+    font-weight: bold;
+ }
+ 
+ .mainDiv{
+width: 60vw;
+ }
+ 
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+small {
+  opacity: .4;
+  margin-top: 20px;
+  display: block;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2em;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin-top: 0.67em;
+}
+
+.todo-list {
+  padding-top: 10px;
+  width: 400px;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: .7em;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.todo-text {
+  cursor: pointer;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.todo button {
+  color: #f37070;
+  background: transparent;
+}
+
+input {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 7px 10px;
+  font-size: .5em;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #000;
+  outline: 0;
+  border: 0;
+  flex: 1;
+}
+
+form {
+  border-top: 1px solid;
+  display: flex;
+  padding-top: 10px;
+  margin-top: 10px
+}
+
+form button {
+  color: #2980B9;
+  background: #fff;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-left: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 0 15px;
+}
+.row{
+  display: flex;
+    justify-content: center;
+}
+.form-control{
+  width: 20vw !important;
+}
+.formCss
+{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.inputCss
+{
+  width: 34vw;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.todoitem{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 60px;
+  align-items: center;
+  border-radius: 4px;
+}
+.aaa{
+  width: 13vw;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-left: 20px;
+}
+.m-r-20{
+  margin-right: 20px;
+}
+.w-34vw{
+  width: 34vw;
+}
